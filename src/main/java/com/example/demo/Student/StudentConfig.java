@@ -17,7 +17,7 @@ public class StudentConfig {
             Student sanaa = new Student(
                     "BAHLOULI Sanaa",
                     "Sanaabhl@gmail.com",
-                    LocalDate.of(1999,12,29),
+                    LocalDate.of(1999,12,29)
             );
             repository.saveAll(List.of(sanaa));
         };
