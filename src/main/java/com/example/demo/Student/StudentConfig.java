@@ -18,7 +18,6 @@ public class StudentConfig {
                     "BAHLOULI Sanaa",
                     "Sanaabhl@gmail.com",
                     LocalDate.of(1999,12,29),
-                    21
             );
             repository.saveAll(List.of(sanaa));
         };
