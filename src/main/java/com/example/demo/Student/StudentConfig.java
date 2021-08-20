@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Configuration
 public class StudentConfig {
@@ -19,6 +20,7 @@ public class StudentConfig {
                     LocalDate.of(1999,12,29),
                     21
             );
+            repository.saveAll(List.of(sanaa));
         };
     }
 }
